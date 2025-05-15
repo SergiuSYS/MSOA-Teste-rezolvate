@@ -1,0 +1,16 @@
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\bin\Debug\GsmBdDataSet.Designer.cs
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\bin\Debug\GsmBdDataSet.xsc
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\bin\Debug\GsmBdDataSet.xsd
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\bin\Debug\GsmBdDataSet.xss
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\bin\Debug\MsoaTest4.exe.config
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\bin\Debug\MsoaTest4.exe
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\bin\Debug\MsoaTest4.pdb
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\obj\Debug\MsoaTest4.csproj.AssemblyReference.cache
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\obj\Debug\MsoaTest4.Form1.resources
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\obj\Debug\MsoaTest4.Properties.Resources.resources
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\obj\Debug\MsoaTest4.csproj.GenerateResource.cache
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\obj\Debug\MsoaTest4.csproj.CoreCompileInputs.cache
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\obj\Debug\MsoaTest4.exe
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\obj\Debug\MsoaTest4.pdb
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\obj\Debug\MsoaTest4.Form2.resources
+C:\Users\Sergiu\source\repos\MsoaTest4\MsoaTest4\obj\Debug\MsoaTest4.Form3.resources
