@@ -63,6 +63,7 @@ Selectează:
 ## 5. O mica modificare in setarile bazei de date
 din file explorer selecteaza baza de date si in proprietatiile pui:
 - Copy to Output Directory pe Copy if newer
+
 ![imagine](ImaginiReadMe/CopyIfNever.png)
 
 este o setare sa sa se salveze in baza de date nu local in \bin\Debug.
