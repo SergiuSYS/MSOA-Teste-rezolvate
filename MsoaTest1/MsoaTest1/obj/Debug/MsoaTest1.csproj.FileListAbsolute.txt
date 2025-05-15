@@ -1,0 +1,11 @@
+C:\Users\Sergiu\source\repos\MsoaTest1\MsoaTest1\bin\Debug\MsoaTest1.exe.config
+C:\Users\Sergiu\source\repos\MsoaTest1\MsoaTest1\bin\Debug\MsoaTest1.exe
+C:\Users\Sergiu\source\repos\MsoaTest1\MsoaTest1\bin\Debug\MsoaTest1.pdb
+C:\Users\Sergiu\source\repos\MsoaTest1\MsoaTest1\obj\Debug\MsoaTest1.csproj.AssemblyReference.cache
+C:\Users\Sergiu\source\repos\MsoaTest1\MsoaTest1\obj\Debug\MsoaTest1.Form1.resources
+C:\Users\Sergiu\source\repos\MsoaTest1\MsoaTest1\obj\Debug\MsoaTest1.Properties.Resources.resources
+C:\Users\Sergiu\source\repos\MsoaTest1\MsoaTest1\obj\Debug\MsoaTest1.csproj.GenerateResource.cache
+C:\Users\Sergiu\source\repos\MsoaTest1\MsoaTest1\obj\Debug\MsoaTest1.csproj.CoreCompileInputs.cache
+C:\Users\Sergiu\source\repos\MsoaTest1\MsoaTest1\obj\Debug\MsoaTest1.exe
+C:\Users\Sergiu\source\repos\MsoaTest1\MsoaTest1\obj\Debug\MsoaTest1.pdb
+C:\Users\Sergiu\source\repos\MsoaTest1\MsoaTest1\obj\Debug\MsoaTest1.Form2.resources
