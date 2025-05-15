@@ -115,7 +115,8 @@ string data = "Hello World !!!";
 File.WriteAllText("C:\\Users\\Sergiu\\Desktop\\FolderTest\\fisier1.txt",data); // se va crea un fisier cu denumirea fisier1.txt si Hello World !!! scris in el 
 
 //cand salvam obiecte este de preferat sa folosim "\n" incat sa le scriem pe lini separate
-//va fi mult mai usor la preluarea datelor pentru ca nu mai facem split.
+//va fi mult mai usor la preluarea datelor pentru a nu mai facem split.
+string data("Sergiu \n anul 2\n media 8");
 ```
 preluarea datelor se face to cu ajutorul lui "DIRECTORY" si "FILE":
 
