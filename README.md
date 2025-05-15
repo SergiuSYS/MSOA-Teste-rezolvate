@@ -16,6 +16,50 @@ cum folosesti baza de date in visualstudio C#
     var studentii = adapterStudenti.GetData().toList();
   
   ```
+TreeView:
+
+TreeNode.Tag poate stoca orice tip de obiect:
+ ```C#
+//in cazul obiectelor create
+Student newStudent = new Student("Sergiu", 1, 8);
+TreeNode newNode = new TreeNode(newStudent.Nume);  
+newNode.Tag = newStudent;                          
+treeView1.Nodes.Add(newNode);
+
+//daca vrei sa salvezi datele dintr-o baza de date trebuie salvata intreaga linie in .tag
+
+ StudentiTableAdapter adapterStudenti = new StudentiTableAdapter();
+ var data = adapterStudenti.GetData().toList(); // va returna o lista intreaga cu toate linile
+ 
+foreach(var row in data)
+{
+	TreeNode newNode = new TreeNode(row.Nume);
+	newNode.tag = row //asa putem tine in memorie toate datele
+	treeView1.Nodes.Add(newNode);
+}
+```
+
+recuperarea obiectului in momentul selectari nodulu:
+important este sa ii precizezi tipul de obiect "as Student"
+ ```C#
+//preluarea unui obiect
+var data = treeView1.SelectedNode.Tag as Student;
+
+important este sa ii precizezi tipul de obiect "as student"
+dupa preluarea datelor se pot manipula
+```
+
+preluarea unei lini de baza de date salvate in treeView
+ ```C#
+var data = treeView1.SelectedNode.Tag as [Denumireabazei de date]DataSet.[Denumirea tabelului]Row;
+
+var data = treeView1.SelectedNode.Tag as FacultateDataSet.StudentiRow; //pentru a spune explicit ce tip de data este
+
+//acum putem face ce vrem cu acea linie cu data.Nume ii preluam numele din linie data.Id data.An etc 
+```
+
+
+
 
 
 # 📘 Ghid pentru Crearea unei Baze de Date Locale în Visual Studio
