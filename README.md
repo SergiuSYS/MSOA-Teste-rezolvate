@@ -35,14 +35,8 @@ Deschide formularul (Form)
 Mergi la tabul Data Sources
 
 Apasă pe Add New Data Source
-
-
 Selectează:
-
-Database
-
-Dataset
-
-Next > Next
-
-Alege tabelele dorite
+-Database
+-Dataset
+-Next > Next
+-Alege tabelele dorite
