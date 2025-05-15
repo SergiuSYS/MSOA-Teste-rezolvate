@@ -1,6 +1,6 @@
 # MSOA-Teste-rezolvate
 
-cum folosesti baza de date in visualstudio C#
+# cum folosesti baza de date in visualstudio C#
   ```C#
      [numele tabelei]TableAdapter adapter[numele tabelei] = new [numele tabelei]TableAdapter();
       //exemplu
@@ -16,7 +16,7 @@ cum folosesti baza de date in visualstudio C#
     var studentii = adapterStudenti.GetData().toList();
   
   ```
-TreeView:
+# TreeView:
 
 TreeNode.Tag poate stoca orice tip de obiect:
  ```C#
@@ -60,7 +60,7 @@ var data = treeView1.SelectedNode.Tag as FacultateDataSet.StudentiRow; //pentru 
 
 
 
-ComboBox:
+# ComboBox:
 
 comboBox poate tine obiecte in el nu doar stringuri:
 ```C#
@@ -101,6 +101,47 @@ preluarea unui obiect saelectat se face:
 var studentSelectat = comboBox1.SelectedItem as Student;
 ```
 
+# Directoare si fisiere:
+
+directoarele se creaza cu ajutorul lui "Directory":
+```C#
+Directory.CreateDirectory(("file path + denuirea lui");
+Directory.CreateDirectory(("C:\\Users\\Sergiu\\Desktop\\FolderTest"); //va crea un folder test in Desktop
+```
+pentru fisiere flosim "FILE":
+```C#
+File.WriteAllText("file path + denuirea lui", "stringul cu date in el");
+string data = "Hello World !!!";
+File.WriteAllText("C:\\Users\\Sergiu\\Desktop\\FolderTest\\fisier1.txt",data); // se va crea un fisier cu denumirea fisier1.txt si Hello World !!! scris in el 
+
+//cand salvam obiecte este de preferat sa folosim "\n" incat sa le scriem pe lini separate
+//va fi mult mai usor la preluarea datelor pentru ca nu mai facem split.
+```
+preluarea datelor se face to cu ajutorul lui "DIRECTORY" si "FILE":
+
+pentru directoare:
+```C#
+Directory.GetDirectories("pathul unde vream sa cautam folderele");
+Directory.GetDirectories("C:\\Users\\Sergiu\\Desktop"); //imi va returna o lista de paturi catre folderele aflata in interiorul lui Desktop 
+//EX: ["C:\\Users\\Sergiu\\Desktop\\FolderTest", "C:\\Users\\Sergiu\\Desktop\\FolderImagini", ....]
+```
+pentru a primi o lista de fisiere:
+```C#
+Directory.GetFiles("pathul unde vream sa cautam fisierele"); 
+Directory.GetFiles("C:\\Users\\Sergiu\\Desktop\\FolderTest") // va returna o lista de pathuri catre fisierele din FolderTest
+```
+pentru a citi un fisier:
+```C#
+ File.ReadAllLines("pathul catre fisier");
+ File.ReadAllLines("C:\\Users\\Sergiu\\Desktop\\FolderTest\\fisier1.txt"); imi va returna Hello World !!!
+ 
+ /* in cazul in care fisierul arata asa
+  * Sergiu
+  * anul 2
+  * medie 8
+  */
+ File.ReadAllLines va returna o lista de stringuri ["Sergiu", "anul 2", "media 8"];
+```
 
 # 📘 Ghid pentru Crearea unei Baze de Date Locale în Visual Studio
 
