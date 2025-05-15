@@ -25,3 +25,6 @@
 - Dacă un tabel conține o **cheie externă** (*foreign key*), setează opțiunea:
   ```sql
   ON DELETE CASCADE
+  ```
+  -Astfel, ștergerile vor fi propagate automat în tabelele legate.
+  -După finalizarea tabelelor, apasă Update pentru a salva modificările.
