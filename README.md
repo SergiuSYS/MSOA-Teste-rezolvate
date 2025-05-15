@@ -1,5 +1,17 @@
 # MSOA-Teste-rezolvate
 
+cum folosesti baza de date in visualstudio C#
+
+- definesti obiectul
+  ```C#
+     StudentiTableAdapter adapterStudenti = new StudentiTableAdapter();
+  ```
+
+
+
+
+
+
 # 📘 Ghid pentru Crearea unei Baze de Date Locale în Visual Studio
 
 ## 1. Deschiderea uneltelor necesare
