@@ -40,3 +40,4 @@ Selectează:
 - Dataset
 - Next > Next
 - Alege tabelele dorite
+![imagine](link_catre_imagine_3)
