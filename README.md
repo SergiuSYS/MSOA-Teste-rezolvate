@@ -1,24 +1,27 @@
 # MSOA-Teste-rezolvate
 
- Ghid pentru Crearea unei Baze de Date Locale în Visual Studio
+# 📘 Ghid pentru Crearea unei Baze de Date Locale în Visual Studio
 
- 1. Deschiderea uneltelor necesare
-    - View > Server Explorer
-    - View > Other Windows > Data Sources
-  2. Crearea bazei de date
-     În fereastra Server Explorer:
-     facem un New Connection
-     [imagine]
-  3. Crearea tabelelor:
-     [Imagine]
-     Dacă un tabel conține o cheie externă (foreign key), setează opțiunea ON DELETE CASCADE pentru ca ștergerile să se reflecte automat și în tabelele legate
-     După finalizarea tabelelor face UPDATE
-  4. Conectarea bazei de date la Form
-     deschdem form ul
-     intri pe tabul Data sources
-     adaugi un nopu data source
-     [imagine]
+## 1. Deschiderea uneltelor necesare
+- `View > Server Explorer`
+- `View > Other Windows > Data Sources`
 
-     dupa selectezi Database > Dataset > next > next
-     apoi selectezi tabelele dorite
-     [imagine]
+---
+
+## 2. Crearea bazei de date
+În fereastra **Server Explorer**:
+- Click pe **Add New Connection**
+- Configurează noua conexiune
+
+![imagine](link_catre_imagine_1) <!-- înlocuiește cu URL sau path către imagine -->
+
+---
+
+## 3. Crearea tabelelor
+- Creează tabelele în baza de date
+
+![imagine](link_catre_imagine_2)
+
+- Dacă un tabel conține o **cheie externă** (*foreign key*), setează opțiunea:
+  ```sql
+  ON DELETE CASCADE
