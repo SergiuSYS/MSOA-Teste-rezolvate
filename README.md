@@ -13,6 +13,10 @@ cum folosesti baza de date in visualstudio C#
      adapterStudenti.Insert();
      adapterStudenti.Update();
      adapterStudenti.Delete();
+  
+    //recomanda ca in momentul in care preluati datele sa le puneti intr-o lista sa fie mult mia usor de manipulat
+    var studentii = adapterStudenti.GetData().toList();
+  
   ```
 
 
