@@ -77,7 +77,7 @@ public class Student
         An = an;
         Medie = medie;
     }
-//pentru a nu i se trece tipul de data in combobox cand adaugam o istanta a acestui obiect trebuie sa facem override  la ToString()
+//pentru a nu i se trece tipul de data in combobox cand adaugam o instanta a acestui obiect trebuie sa facem override  la ToString()
 //in momentul in care adaugi obiectul in combobox acesta il va denumi dupa ce returneaza functia ToString()
    
     public override string ToString()
