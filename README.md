@@ -20,7 +20,7 @@
 ## 3. Crearea tabelelor
 - Creează tabelele în baza de date
 
-![imagine](link_catre_imagine_2)
+![imagine](ImaginiReadMe/CreateTable.png)
 
 - Dacă un tabel conține o **cheie externă** (*foreign key*), setează opțiunea:
   ```sql
