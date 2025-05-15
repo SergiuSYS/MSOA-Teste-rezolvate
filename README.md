@@ -13,7 +13,7 @@
 - Click pe **Add New Connection**
 - Configurează noua conexiune
 
-![imagine](link_catre_imagine_1) <!-- înlocuiește cu URL sau path către imagine -->
+![imagine]("ImaginiReadMe/CreateDataBase.png") <!-- înlocuiește cu URL sau path către imagine -->
 
 ---
 
