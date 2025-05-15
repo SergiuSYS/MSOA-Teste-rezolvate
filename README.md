@@ -1,8 +1,6 @@
 # MSOA-Teste-rezolvate
 
 cum folosesti baza de date in visualstudio C#
-
-- definesti obiectul
   ```C#
      [numele tabelei]TableAdapter adapter[numele tabelei] = new [numele tabelei]TableAdapter();
       //exemplu
