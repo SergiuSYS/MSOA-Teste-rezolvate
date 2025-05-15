@@ -4,12 +4,16 @@ cum folosesti baza de date in visualstudio C#
 
 - definesti obiectul
   ```C#
-     [numele tabelei]TableAdapter adapter[numele tabelei] = new[numele tabelei]TableAdapter();
+     [numele tabelei]TableAdapter adapter[numele tabelei] = new [numele tabelei]TableAdapter();
+      //exemplu
+     StudentiTableAdapter adapterStudenti = new StudentiTableAdapter();
+
+     //cu ajutorul adapterStudenti putem primi date, insera, update si sterge
+     adapterStudenti.GetData();
+     adapterStudenti.Insert();
+     adapterStudenti.Update();
+     adapterStudenti.Delete();
   ```
-
-
-
-
 
 
 # 📘 Ghid pentru Crearea unei Baze de Date Locale în Visual Studio
