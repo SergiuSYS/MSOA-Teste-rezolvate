@@ -1,0 +1,14 @@
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\bin\Debug\Facultate.mdf
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\bin\Debug\Facultate_log.ldf
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\bin\Debug\MsoaTest2.exe.config
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\bin\Debug\MsoaTest2.exe
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\bin\Debug\MsoaTest2.pdb
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\obj\Debug\MsoaTest2.csproj.AssemblyReference.cache
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\obj\Debug\MsoaTest2.Form1.resources
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\obj\Debug\MsoaTest2.Properties.Resources.resources
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\obj\Debug\MsoaTest2.csproj.GenerateResource.cache
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\obj\Debug\MsoaTest2.csproj.CoreCompileInputs.cache
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\obj\Debug\MsoaTest2.exe
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\obj\Debug\MsoaTest2.pdb
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\obj\Debug\MsoaTest2.Form2.resources
+C:\Users\Sergiu\source\repos\MsoaTest2\MsoaTest2\obj\Debug\MsoaTest2.Form3.resources
