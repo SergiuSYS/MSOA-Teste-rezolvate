@@ -25,18 +25,20 @@
 - Dacă un tabel conține o **cheie externă** (*foreign key*), setează opțiunea:
   ```sql
   ON DELETE CASCADE
-
+  ```
+  Exemplu;
+  ```sql
   CREATE TABLE [dbo].[Student] (
     [Id] INT PRIMARY KEY IDENTITY(1,1),
     [Nume] NVARCHAR(50) NOT NULL
   );
+  
   CREATE TABLE [dbo].[Materii](
       [Id] INT PRIMARY KEY IDENTITY(1,1),
       [Denumire] NVARCHAR(30) NOT NULL,
       [NotaFinala] INT NOT NULL,
-      [StudentId] INT NOT NULL FOREIGN KEY REFERENCES Student(Id)
+      [StudentId] INT NOT NULL FOREIGN KEY REFERENCES Student(Id) ON DELETE CASCADE
   );
-  
   ```
 - Astfel, ștergerile vor fi propagate automat în tabelele legate.
 - După finalizarea tabelelor, apasă Update pentru a salva modificările.
