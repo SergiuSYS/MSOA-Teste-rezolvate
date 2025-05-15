@@ -4,7 +4,7 @@ cum folosesti baza de date in visualstudio C#
 
 - definesti obiectul
   ```C#
-     StudentiTableAdapter adapterStudenti = new StudentiTableAdapter();
+     [numele tabelei]TableAdapter adapter[numele tabelei] = new[numele tabelei]TableAdapter();
   ```
 
 
