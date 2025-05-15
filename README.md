@@ -26,5 +26,5 @@
   ```sql
   ON DELETE CASCADE
   ```
-  -Astfel, ștergerile vor fi propagate automat în tabelele legate.
-  -După finalizarea tabelelor, apasă Update pentru a salva modificările.
+-Astfel, ștergerile vor fi propagate automat în tabelele legate.
+-După finalizarea tabelelor, apasă Update pentru a salva modificările.
