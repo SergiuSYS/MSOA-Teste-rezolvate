@@ -60,6 +60,46 @@ var data = treeView1.SelectedNode.Tag as FacultateDataSet.StudentiRow; //pentru 
 
 
 
+ComboBox:
+
+comboBox poate tine obiecte in el nu doar stringuri:
+```C#
+//exista clasa Student 
+public class Student
+{
+    public string Nume { get; set; }
+    public int An { get; set; }
+    public double Medie { get; set; }
+
+    public Student(string nume, int an, double medie)
+    {
+        Nume = nume;
+        An = an;
+        Medie = medie;
+    }
+//pentru a nu i se trece tipul de data in combobox cand adaugam o istanta a acestui obiect trebuie sa facem override  la ToString()
+//in momentul in care adaugi obiectul in combobox acesta il va denumi dupa ce returneaza functia ToString()
+   
+    public override string ToString()
+    {
+        return Nume; // Ce apare în ComboBox
+    }
+
+}
+```
+
+cum functioneaza adugarea:
+```C#
+Student student1 = new Student("Ana", 1, 9.5);
+Student student2 = new Student("Paul", 2, 8.8);
+
+comboBox1.Items.Add(student1);
+comboBox1.Items.Add(student2);
+```
+preluarea unui obiect saelectat se face: 
+```C#
+var studentSelectat = comboBox1.SelectedItem as Student;
+```
 
 
 # 📘 Ghid pentru Crearea unei Baze de Date Locale în Visual Studio
